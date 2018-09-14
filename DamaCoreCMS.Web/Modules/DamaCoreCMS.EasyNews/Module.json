@@ -1,0 +1,15 @@
+﻿{
+  "ModuleTitle": "Easy News",
+  "Author": "DamaCoreCMS",
+  "Email": "DamaCoreCMS@gmail.com",
+  "Website": "http://DotDamaCoreCMS.com",
+  "DemoUrl": "http://demo.DotDamaCoreCMS.com",
+  "ManualUrl": "http://demo.DotDamaCoreCMS.com/manual",
+  "AntiForgery": true,
+  "Description": "Easy and smart News Module.",
+  "Version": "1.1",
+  "NccVersion": "0.4.5",
+  "Category": "Link,share,notice,News",
+  "TablePrefix": "Ne_",
+  "Dependencies": []
+}

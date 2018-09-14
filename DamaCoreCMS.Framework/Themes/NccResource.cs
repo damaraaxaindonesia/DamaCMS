@@ -1,0 +1,46 @@
+﻿
+ 
+namespace DamaCoreCMS.Framework.Themes
+{
+    public class NccResource
+    {
+        public static string JQuery { get { return "JQuery"; } }
+        public static string Bootstrap { get { return "Bootstrap"; } }
+        public static string BootstrapBootbox { get { return "BootstrapBootbox"; } }
+        public static string BootstrapDateTimePicker { get { return "BootstrapDateTimePicker"; } }
+        public static string CkEditor { get { return "CkEditor"; } }
+        public static string DataTable { get { return "DataTable"; } }
+        public static string DataTableResponsive { get { return "DataTableResponsive"; } }
+        public static string DataTableFixedColumn { get { return "DataTableFixedColumn"; } }
+        public static string FontAwesome { get { return "FontAwesome"; } }
+        public static string Lightbox2 { get { return "Lightbox2"; } }
+
+        public NccResource()
+        {
+            UseMinify = true;            
+        }
+        
+        public string Version { get; set; }
+        public string FilePath { get; set; }        
+        public bool UseMinify { get; set; }
+        public ResourceType Type { get; set; }
+        public int Order { get; set; }
+        public IncludePosition Position{ get; set; }
+        
+        public enum ResourceType
+        {
+            JsFile,
+            JsContent,
+            CssFile,
+            CssContent,
+            SassFile,
+            LcssFile
+        }
+
+        public enum IncludePosition
+        {
+            Header,
+            Footer
+        }
+    }
+}

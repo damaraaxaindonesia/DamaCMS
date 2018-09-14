@@ -1,0 +1,25 @@
+﻿@inherits NccRazorPage<TModel>
+
+@using DamaCoreCMS.Framework.Themes
+@using DamaCoreCMS.Framework.Core
+@using Microsoft.AspNetCore.Identity
+@using DamaCoreCMS.Framework.Utility
+@using DamaCoreCMS.Framework.Modules
+@using DamaCoreCMS.Framework.Resources
+@using DamaCoreCMS.Framework.Modules.Widgets
+@using DamaCoreCMS.Framework.Core.Models
+@using DamaCoreCMS.Framework.Themes
+@using DamaCoreCMS.Framework.Core.Mvc.Views
+@using DamaCoreCMS.Framework.Core.Mvc.Views.Extensions
+@using Microsoft.Extensions.Localization
+@using DamaCoreCMS.Framework.i18n
+
+@addTagHelper *, DamaCoreCMS.Framework
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+@inject SignInManager<NccUser> SignInManager
+@inject UserManager<NccUser> UserManager
+@inject NccLanguageDetector LanguageDetector
+
+

@@ -1,0 +1,16 @@
+{
+  "IsDbCreateComplete": true,
+  "IsAdminCreateComplete": true,
+  "SelectedDatabase": "MySql",
+  "ConnectionString": "server=localhost;port=3306;database=dama_cms;userid=root;pwd=;sslmode=none;",
+  "StartupType": "Url",
+  "StartupData": "/CmsHome",
+  "StartupUrl": "/CmsHome",
+  "TablePrefix": "dam_",
+  "EnableCache": false,
+  "LoggingLevel": 4,
+  "IsMaintenanceMode": false,
+  "MaintenanceDownTime": 30,
+  "MaintenanceMessage": "Doing Maintenance. Comming back soon...",
+  "Language": "en"
+}

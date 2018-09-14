@@ -1,0 +1,14 @@
+﻿{
+  "ModuleTitle": "Image Slider",
+  "Author": "DamaCoreCMS",
+  "Email": "DamaCoreCMS@gmail.com",
+  "Website": "http://DotDamaCoreCMS.com",
+  "DemoUrl": "http://demo.DotDamaCoreCMS.com",  
+  "AntiForgery": true,
+  "Description": "Builtin ImageSlider Module.",
+  "Version": "1.0",
+  "NccVersion": "0.4.5",
+  "Category": "Image,Slider,Media",
+  "TablePrefix": "",
+  "Dependencies": []
+}

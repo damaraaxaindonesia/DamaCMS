@@ -1,0 +1,14 @@
+﻿{
+  "ModuleTitle": "DamaCoreCMS HelloWorld",  
+  "Author": "DamaCoreCMS",
+  "Email": "DamaCoreCMS@gmail.com",
+  "Website": "http://DotDamaCoreCMS.com",
+  "DemoUrl": "http://demo.DotDamaCoreCMS.com",  
+  "AntiForgery": true,
+  "Description": "Builtin Content Management Example Module.",
+  "Version": "0.1.1",
+  "NccVersion": "0.4.5",
+  "Dependencies": [],
+  "TablePrefix": "",
+  "Category": "HelloWorld,Example"
+}

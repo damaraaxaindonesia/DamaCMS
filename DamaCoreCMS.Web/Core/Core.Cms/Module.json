@@ -1,0 +1,16 @@
+﻿{
+  "ModuleName": "Core Cms",
+  "ModuleTitle": "CMS",
+  "Author": "DamaCoreCMS",
+  "Email": "DamaCoreCMS@gmail.com",
+  "Website": "http://DotDamaCoreCMS.com",
+  "DemoUrl": "http://demo.DotDamaCoreCMS.com",
+  "ManualUrl": "http://demo.DotDamaCoreCMS.com/manual",
+  "AntiForgery": true,
+  "Description": "Builtin Content Management System Module.",
+  "Version": "0.1.1",
+  "NccVersion": "0.4.5",  
+  "Category": "Core",
+  "TablePrefix": "",
+  "Dependencies": []
+}

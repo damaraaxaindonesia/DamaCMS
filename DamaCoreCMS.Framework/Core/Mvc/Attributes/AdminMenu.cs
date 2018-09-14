@@ -1,0 +1,36 @@
+﻿
+
+using System;
+
+namespace DamaCoreCMS.Framework.Core.Mvc.Attributes
+{
+    public class AdminMenu : Attribute, IMenu
+    {
+        public string Name { get; set; }
+        public string IconCls { get; set; }
+        public int Order { get; set; }
+        public string Url { get; set; }
+        public bool IsVisible { get; set; } = true;
+    }
+
+    public class AdminMenuItem : Attribute, IMenuItem
+    {
+        public AdminMenuItem()
+        {
+            SubActions = new string[] { };
+        }
+
+        public string Name { get; set; }
+        public string Url { get; set; }
+        public string Module { get; set; }
+        public string Area { get; set; }
+        public string Controller { get; set; }
+        public string Action { get; set; }
+        public string QueryString { get; set; }
+        public int Order { get; set; }
+        public string IconCls { get; set; }
+        public string[] SubActions { get; set; }
+        public bool HasAllowAnonymous { get; set; }
+        public bool IsVisible { get; set; } = true;
+    }
+}
